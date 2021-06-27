@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-string macOS(string email)
+string privacy(string email)
 {
     int length;
     string finalAns = "";
@@ -29,6 +29,6 @@ int main()
 {
     string str;
     cin >> str;
-    cout << macOS(str) << endl;
+    cout << privacy(str) << endl;
     return 0;
 }
